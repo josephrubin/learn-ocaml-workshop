@@ -35,7 +35,7 @@ let float_of_int xs = failwith "For you to implement"
 (** ========== [List.init] ========== **)
 (* [List.init] has the following signature:
 
-   {| val init : int -> f:(int -> 'a) -> 'a t |}
+   {| val init : int -> f:(int -> 'a) -> 'a list |}
 
    [init] allows you to construct new lists.  Given a number representing the
    number of elements to generate and a function to construct a new element, it
